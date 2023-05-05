@@ -1,0 +1,18 @@
+<%- include("partials/header"); -%>
+<% if(bloglist.length==0){ %>
+    <div class="homepara">
+        <p><%= startingpara %></p>
+    </div>
+<% }else{ %>
+
+    <% for(var i=0; i<bloglist.length; i++){ %>
+    <div class="sarakuch"> 
+        
+            <h1 class="sarakuchtitle"><%= bloglist[i].title %></h1>
+            
+            <p class="sarakuchcontent"><%= bloglist[i].content %> <span class="date"><%=bloglist[i].date %></span></p>
+    </div>  
+    <% } %>
+<% } %>
+
+<%- include("partials/footer"); -%>

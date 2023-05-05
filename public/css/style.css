@@ -1,0 +1,128 @@
+
+header{   
+    position: sticky;
+    position:-webkit-sticky;
+    top: 0;
+    
+}
+
+header .nav{
+    background-color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 60% auto;
+    border: 2px ;
+    border-radius: 100px ;
+    
+}
+header .nav .title{
+    color: rgb(255, 255, 255);
+    padding-left: 50px;
+    font-size: 16px;
+    opacity:1;
+}
+header .nav ul {
+   font-size: large;
+   color: aliceblue;
+   list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto  auto ;
+    text-decoration-style: none;
+    padding-top: 11px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header .nav ul li a:hover{
+    color: aqua;
+   
+}
+footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(76, 180, 250);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  font-size: large;
+}
+.container{
+    background-color: rgb(252, 234, 211);
+    display:block;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    word-break: break-all;
+    margin-bottom: 80px;
+}
+
+
+.homepara{
+    border: 2px solid black;
+    word-break: break-word;
+    height: 10vh;
+    width: 60vw;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    left: 20%;
+    margin-top: 53px;
+}
+
+.form{
+    
+    position: relative;
+}
+#title{
+    position: relative;
+    left: 20px;
+    height: 50px;
+    width: 95%;
+}
+
+.postarea{
+    position: relative;
+    left:20px;
+    width: 95%;
+}
+button{
+    position: relative;
+    top:44px;
+    left: 20px;
+    height: 50px;
+    width: 100px;
+    font-size: large;
+    font-weight: bold;
+    background-color: cornflowerblue;
+    box-shadow: 1px 3px 5px 2.5px #6b6868;
+}
+
+.sarakuch{  
+    border: 2px solid black;
+    margin-top: 30px;
+    position: relative;
+    
+}
+.sarakuchtitle{
+    position: relative;
+    font-size: 45px;
+    left: 20px;
+}
+.sarakuchcontent{
+    position: relative;
+    font-size: 20px;
+    left: 80px;
+    right: 20px;
+    word-wrap: break-word;
+   word-break: keep-all;
+   
+}
+.date{
+    float: right;
+    color: #6b6868;
+    font-size: 15px;
+    position: relative;
+    margin-right: 85px;
+}
